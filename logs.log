@@ -1,0 +1,1465 @@
+2024-10-08 03:41:39,766 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:41:42,798 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:41:43,800 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 03:41:44,138 - INFO - feed_update: 172 - Update id=674004643 is handled. Duration 338 ms by bot id=8177511854
+2024-10-08 03:41:47,722 - INFO - feed_update: 172 - Update id=674004644 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:41:47,722 - ERROR - _process_update: 315 - Cause exception while process update id=674004644 by bot id=8177511854
+KeyError: 'S'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 61, in send_echo
+    text.append(alphabet_dict[el])
+                ~~~~~~~~~~~~~^^^^
+KeyError: 'S'
+2024-10-08 03:42:17,255 - INFO - send_echo: 63 - Sergei c 5249216928 отправил A TAK
+2024-10-08 03:42:17,553 - INFO - feed_update: 172 - Update id=674004645 is handled. Duration 298 ms by bot id=8177511854
+2024-10-08 03:42:25,494 - INFO - send_echo: 63 - Sergei c 5249216928 отправил PMSM
+2024-10-08 03:42:25,595 - INFO - feed_update: 172 - Update id=674004646 is handled. Duration 100 ms by bot id=8177511854
+2024-10-08 03:42:29,993 - INFO - feed_update: 172 - Update id=674004647 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:42:29,993 - ERROR - _process_update: 315 - Cause exception while process update id=674004647 by bot id=8177511854
+KeyError: '?'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 61, in send_echo
+    text.append(alphabet_dict[el])
+                ~~~~~~~~~~~~~^^^^
+KeyError: '?'
+2024-10-08 03:42:39,551 - INFO - send_echo: 63 - Sergei c 5249216928 отправил RILI
+2024-10-08 03:42:39,696 - INFO - feed_update: 172 - Update id=674004648 is handled. Duration 145 ms by bot id=8177511854
+2024-10-08 03:44:26,120 - INFO - send_echo: 63 - Sergei c 5249216928 отправил AAU TSAUTS
+2024-10-08 03:44:26,393 - INFO - feed_update: 172 - Update id=674004649 is handled. Duration 273 ms by bot id=8177511854
+2024-10-08 03:44:29,057 - INFO - send_echo: 63 - Sergei c 5249216928 отправил PUTSP PTSUTS
+2024-10-08 03:44:29,162 - INFO - feed_update: 172 - Update id=674004650 is handled. Duration 105 ms by bot id=8177511854
+2024-10-08 03:46:41,106 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:46:41,371 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:46:56,744 - INFO - send_echo: 63 - Sergei c 5249216928 отправил ['P', 'F', 'V', 'Y', 'P']
+2024-10-08 03:46:56,744 - INFO - feed_update: 172 - Update id=674004651 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:46:56,744 - ERROR - _process_update: 315 - Cause exception while process update id=674004651 by bot id=8177511854
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['P', 'F', 'V', 'Y', 'P'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    await message.answer(text=text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 2038, in answer
+    return SendMessage(
+           ^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['P', 'F', 'V', 'Y', 'P'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+2024-10-08 03:46:58,940 - INFO - send_echo: 63 - Sergei c 5249216928 отправил ['P', 'Y', 'V']
+2024-10-08 03:46:58,940 - INFO - feed_update: 172 - Update id=674004652 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:46:58,940 - ERROR - _process_update: 315 - Cause exception while process update id=674004652 by bot id=8177511854
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['P', 'Y', 'V'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    await message.answer(text=text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 2038, in answer
+    return SendMessage(
+           ^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['P', 'Y', 'V'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+2024-10-08 03:46:59,617 - INFO - send_echo: 63 - Sergei c 5249216928 отправил ['P']
+2024-10-08 03:46:59,617 - INFO - feed_update: 172 - Update id=674004653 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:46:59,617 - ERROR - _process_update: 315 - Cause exception while process update id=674004653 by bot id=8177511854
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['P'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    await message.answer(text=text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 2038, in answer
+    return SendMessage(
+           ^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['P'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+2024-10-08 03:52:34,371 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:52:34,662 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:52:43,317 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 03:52:43,727 - INFO - feed_update: 172 - Update id=674004654 is handled. Duration 410 ms by bot id=8177511854
+2024-10-08 03:52:49,845 - INFO - send_echo: 66 - Sergei c 5249216928 отправил ['a', ' ', 'ch', 'e']
+2024-10-08 03:52:49,845 - INFO - feed_update: 172 - Update id=674004655 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:52:49,845 - ERROR - _process_update: 315 - Cause exception while process update id=674004655 by bot id=8177511854
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['a', ' ', 'ch', 'e'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 67, in send_echo
+    await message.answer(text=text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 2038, in answer
+    return SendMessage(
+           ^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=['a', ' ', 'ch', 'e'], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.9/v/string_type
+2024-10-08 03:53:25,207 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:53:25,495 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:53:29,756 - INFO - feed_update: 172 - Update id=674004656 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:53:29,756 - ERROR - _process_update: 315 - Cause exception while process update id=674004656 by bot id=8177511854
+KeyError: '?'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    text.append(alphabet_dict[el])
+                ~~~~~~~~~~~~~^^^^
+KeyError: '?'
+2024-10-08 03:53:31,882 - INFO - send_echo: 66 - Sergei c 5249216928 отправил a s
+2024-10-08 03:53:32,220 - INFO - feed_update: 172 - Update id=674004657 is handled. Duration 338 ms by bot id=8177511854
+2024-10-08 03:53:36,212 - INFO - send_echo: 66 - Sergei c 5249216928 отправил v ch aa v
+2024-10-08 03:53:36,376 - INFO - feed_update: 172 - Update id=674004658 is handled. Duration 164 ms by bot id=8177511854
+2024-10-08 03:54:46,095 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:54:46,387 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:54:53,289 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 03:54:53,627 - INFO - feed_update: 172 - Update id=674004659 is handled. Duration 337 ms by bot id=8177511854
+2024-10-08 03:54:55,985 - INFO - send_echo: 66 - Sergei c 5249216928 отправил V
+2024-10-08 03:54:56,087 - INFO - feed_update: 172 - Update id=674004660 is handled. Duration 101 ms by bot id=8177511854
+2024-10-08 03:54:57,073 - INFO - send_echo: 66 - Sergei c 5249216928 отправил Y
+2024-10-08 03:54:57,262 - INFO - feed_update: 172 - Update id=674004661 is handled. Duration 188 ms by bot id=8177511854
+2024-10-08 03:54:58,916 - INFO - send_echo: 66 - Sergei c 5249216928 отправил V
+2024-10-08 03:54:59,162 - INFO - feed_update: 172 - Update id=674004662 is handled. Duration 246 ms by bot id=8177511854
+2024-10-08 03:55:00,524 - INFO - send_echo: 66 - Sergei c 5249216928 отправил M
+2024-10-08 03:55:00,621 - INFO - feed_update: 172 - Update id=674004663 is handled. Duration 97 ms by bot id=8177511854
+2024-10-08 03:55:02,022 - INFO - send_echo: 66 - Sergei c 5249216928 отправил V
+2024-10-08 03:55:02,121 - INFO - feed_update: 172 - Update id=674004664 is handled. Duration 98 ms by bot id=8177511854
+2024-10-08 03:56:39,653 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:56:39,949 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:56:46,963 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 03:56:47,312 - INFO - feed_update: 172 - Update id=674004665 is handled. Duration 349 ms by bot id=8177511854
+2024-10-08 03:56:52,278 - INFO - feed_update: 172 - Update id=674004666 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:56:52,278 - ERROR - _process_update: 315 - Cause exception while process update id=674004666 by bot id=8177511854
+KeyError: 'ч'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    text.append(alphabet_dict[el].lower())
+                ~~~~~~~~~~~~~^^^^
+KeyError: 'ч'
+2024-10-08 03:56:56,733 - INFO - feed_update: 172 - Update id=674004667 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:56:56,733 - ERROR - _process_update: 315 - Cause exception while process update id=674004667 by bot id=8177511854
+KeyError: 'е'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    text.append(alphabet_dict[el].lower())
+                ~~~~~~~~~~~~~^^^^
+KeyError: 'е'
+2024-10-08 03:57:58,730 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:57:59,010 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:58:03,398 - INFO - feed_update: 172 - Update id=674004668 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:58:03,398 - ERROR - _process_update: 315 - Cause exception while process update id=674004668 by bot id=8177511854
+KeyError: <built-in method upper of str object at 0x1181feab0>
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    text.append(alphabet_dict[el.upper].lower())
+                ~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: <built-in method upper of str object at 0x1181feab0>
+2024-10-08 03:58:06,877 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 03:58:07,214 - INFO - feed_update: 172 - Update id=674004669 is handled. Duration 337 ms by bot id=8177511854
+2024-10-08 03:58:59,835 - INFO - start_polling: 527 - Start polling
+2024-10-08 03:59:00,098 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 03:59:03,274 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 03:59:03,597 - INFO - feed_update: 172 - Update id=674004670 is handled. Duration 323 ms by bot id=8177511854
+2024-10-08 03:59:07,329 - INFO - send_echo: 66 - Sergei c 5249216928 отправил priv
+2024-10-08 03:59:07,429 - INFO - feed_update: 172 - Update id=674004671 is handled. Duration 100 ms by bot id=8177511854
+2024-10-08 03:59:11,919 - INFO - send_echo: 66 - Sergei c 5249216928 отправил RooiRSHi
+2024-10-08 03:59:12,025 - INFO - feed_update: 172 - Update id=674004672 is handled. Duration 106 ms by bot id=8177511854
+2024-10-08 03:59:17,138 - INFO - send_echo: 66 - Sergei c 5249216928 отправил DPDK pu LTP
+2024-10-08 03:59:17,238 - INFO - feed_update: 172 - Update id=674004673 is handled. Duration 99 ms by bot id=8177511854
+2024-10-08 03:59:26,930 - INFO - feed_update: 172 - Update id=674004674 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 03:59:26,931 - ERROR - _process_update: 315 - Cause exception while process update id=674004674 by bot id=8177511854
+KeyError: '\n'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    text.append(alphabet_dict[el.upper()].lower())
+                ~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: '\n'
+2024-10-08 04:00:22,442 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 04:00:22,802 - INFO - feed_update: 172 - Update id=674004675 is handled. Duration 359 ms by bot id=8177511854
+2024-10-08 04:00:39,464 - INFO - feed_update: 172 - Update id=674004676 is not handled. Duration 0 ms by bot id=8177511854
+2024-10-08 04:00:39,464 - ERROR - _process_update: 315 - Cause exception while process update id=674004676 by bot id=8177511854
+KeyError: '?'
+Traceback (most recent call last):
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/ser/ds_bootcamp/tg_bot/bot.py", line 64, in send_echo
+    text.append(alphabet_dict[el.upper()].lower())
+                ~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: '?'
+2024-10-08 04:09:32,545 - INFO - start_polling: 527 - Start polling
+2024-10-08 04:09:32,837 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 04:10:07,203 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 04:10:07,801 - INFO - feed_update: 172 - Update id=674004677 is handled. Duration 598 ms by bot id=8177511854
+2024-10-08 04:10:14,565 - WARNING - send_echo: 65 - Неизвестный символ - д
+2024-10-08 04:10:14,566 - WARNING - send_echo: 65 - Неизвестный символ - е
+2024-10-08 04:10:14,566 - WARNING - send_echo: 65 - Неизвестный символ - л
+2024-10-08 04:10:14,566 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:10:14,566 - WARNING - send_echo: 65 - Неизвестный символ - е
+2024-10-08 04:10:14,566 - WARNING - send_echo: 65 - Неизвестный символ - м
+2024-10-08 04:10:14,566 - WARNING - send_echo: 65 - Неизвестный символ - ?
+2024-10-08 04:10:14,566 - INFO - send_echo: 68 - Sergei c 5249216928 отправил DELAEM?
+2024-10-08 04:10:14,666 - INFO - feed_update: 172 - Update id=674004678 is handled. Duration 100 ms by bot id=8177511854
+2024-10-08 04:10:16,775 - WARNING - send_echo: 65 - Неизвестный символ - в
+2024-10-08 04:10:16,775 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:10:16,776 - INFO - send_echo: 68 - Sergei c 5249216928 отправил VY
+2024-10-08 04:10:16,899 - INFO - feed_update: 172 - Update id=674004679 is handled. Duration 124 ms by bot id=8177511854
+2024-10-08 04:10:18,671 - WARNING - send_echo: 65 - Неизвестный символ - ц
+2024-10-08 04:10:18,671 - WARNING - send_echo: 65 - Неизвестный символ - у
+2024-10-08 04:10:18,671 - INFO - send_echo: 68 - Sergei c 5249216928 отправил TSU
+2024-10-08 04:10:18,769 - INFO - feed_update: 172 - Update id=674004680 is handled. Duration 98 ms by bot id=8177511854
+2024-10-08 04:10:19,885 - WARNING - send_echo: 65 - Неизвестный символ - 2
+2024-10-08 04:10:19,886 - WARNING - send_echo: 65 - Неизвестный символ - 3
+2024-10-08 04:10:19,886 - WARNING - send_echo: 65 - Неизвестный символ - 4
+2024-10-08 04:10:19,886 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ???
+2024-10-08 04:10:19,985 - INFO - feed_update: 172 - Update id=674004681 is handled. Duration 100 ms by bot id=8177511854
+2024-10-08 04:10:26,761 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:10:26,761 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:10:26,761 - INFO - send_echo: 68 - Sergei c 5249216928 отправил AY
+2024-10-08 04:10:26,873 - INFO - feed_update: 172 - Update id=674004682 is handled. Duration 112 ms by bot id=8177511854
+2024-10-08 04:10:30,556 - WARNING - send_echo: 65 - Неизвестный символ - ч
+2024-10-08 04:10:30,556 - WARNING - send_echo: 65 - Неизвестный символ - м
+2024-10-08 04:10:30,556 - WARNING - send_echo: 65 - Неизвестный символ - ч
+2024-10-08 04:10:30,557 - INFO - send_echo: 68 - Sergei c 5249216928 отправил CHMCH
+2024-10-08 04:10:30,691 - INFO - feed_update: 172 - Update id=674004683 is handled. Duration 135 ms by bot id=8177511854
+2024-10-08 04:10:35,054 - WARNING - send_echo: 65 - Неизвестный символ - ж
+2024-10-08 04:10:35,055 - WARNING - send_echo: 65 - Неизвестный символ - ж
+2024-10-08 04:10:35,055 - WARNING - send_echo: 65 - Неизвестный символ - й
+2024-10-08 04:10:35,055 - WARNING - send_echo: 65 - Неизвестный символ - 3
+2024-10-08 04:10:35,055 - WARNING - send_echo: 65 - Неизвестный символ - 4
+2024-10-08 04:10:35,055 - WARNING - send_echo: 65 - Неизвестный символ - 5
+2024-10-08 04:10:35,055 - WARNING - send_echo: 65 - Неизвестный символ - 1
+2024-10-08 04:10:35,055 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ZHDVZHZHI????
+2024-10-08 04:10:35,151 - INFO - feed_update: 172 - Update id=674004684 is handled. Duration 97 ms by bot id=8177511854
+2024-10-08 04:11:22,201 - INFO - start_polling: 527 - Start polling
+2024-10-08 04:11:22,461 - INFO - _polling: 341 - Run polling for bot @TanslatorSigmabot id=8177511854 - 'TranslatorSigma-Bot'
+2024-10-08 04:11:26,225 - INFO - process_command_start: 16 - Sergei c 5249216928 запустил бота
+2024-10-08 04:11:26,568 - INFO - feed_update: 172 - Update id=674004685 is handled. Duration 343 ms by bot id=8177511854
+2024-10-08 04:11:30,571 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:30,571 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:30,571 - WARNING - send_echo: 65 - Неизвестный символ - в
+2024-10-08 04:11:30,571 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:30,571 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ayva
+2024-10-08 04:11:30,667 - INFO - feed_update: 172 - Update id=674004686 is handled. Duration 96 ms by bot id=8177511854
+2024-10-08 04:11:32,537 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:32,537 - WARNING - send_echo: 65 - Неизвестный символ - в
+2024-10-08 04:11:32,537 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:32,537 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:32,537 - INFO - send_echo: 68 - Sergei c 5249216928 отправил yvay
+2024-10-08 04:11:32,637 - INFO - feed_update: 172 - Update id=674004687 is handled. Duration 100 ms by bot id=8177511854
+2024-10-08 04:11:35,001 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:35,001 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:35,001 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:35,001 - WARNING - send_echo: 65 - Неизвестный символ - в
+2024-10-08 04:11:35,001 - INFO - send_echo: 68 - Sergei c 5249216928 отправил FVfyavAYF
+2024-10-08 04:11:35,101 - INFO - feed_update: 172 - Update id=674004688 is handled. Duration 100 ms by bot id=8177511854
+2024-10-08 04:11:38,253 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:38,254 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:38,254 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:38,254 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:38,254 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:38,254 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:38,254 - INFO - send_echo: 68 - Sergei c 5249216928 отправил FayfafyYFAF
+2024-10-08 04:11:38,356 - INFO - feed_update: 172 - Update id=674004689 is handled. Duration 102 ms by bot id=8177511854
+2024-10-08 04:11:42,002 - WARNING - send_echo: 65 - Неизвестный символ - !
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - й
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - ц
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - 3
+2024-10-08 04:11:42,003 - WARNING - send_echo: 65 - Неизвестный символ - 2
+2024-10-08 04:11:42,004 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ?itsayfFY??
+2024-10-08 04:11:42,105 - INFO - feed_update: 172 - Update id=674004690 is handled. Duration 102 ms by bot id=8177511854
+2024-10-08 04:11:45,255 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:45,255 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:45,255 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:45,255 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:45,255 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:45,255 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:45,255 - INFO - send_echo: 68 - Sergei c 5249216928 отправил yfafay
+2024-10-08 04:11:45,352 - INFO - feed_update: 172 - Update id=674004691 is handled. Duration 97 ms by bot id=8177511854
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - !
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ф
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:11:51,356 - WARNING - send_echo: 65 - Неизвестный символ - ы
+2024-10-08 04:11:51,356 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ?FYAfyfyafyay
+2024-10-08 04:11:51,454 - INFO - feed_update: 172 - Update id=674004692 is handled. Duration 98 ms by bot id=8177511854
+2024-10-08 04:11:54,225 - WARNING - send_echo: 65 - Неизвестный символ - 2
+2024-10-08 04:11:54,225 - WARNING - send_echo: 65 - Неизвестный символ - 3
+2024-10-08 04:11:54,225 - WARNING - send_echo: 65 - Неизвестный символ - 4
+2024-10-08 04:11:54,225 - WARNING - send_echo: 65 - Неизвестный символ - 1
+2024-10-08 04:11:54,226 - WARNING - send_echo: 65 - Неизвестный символ - 5
+2024-10-08 04:11:54,226 - WARNING - send_echo: 65 - Неизвестный символ - 1
+2024-10-08 04:11:54,226 - WARNING - send_echo: 65 - Неизвестный символ - 5
+2024-10-08 04:11:54,226 - WARNING - send_echo: 65 - Неизвестный символ - 1
+2024-10-08 04:11:54,226 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ????????
+2024-10-08 04:11:54,453 - INFO - feed_update: 172 - Update id=674004693 is handled. Duration 228 ms by bot id=8177511854
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 4
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 3
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 1
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 2
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 5
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 1
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 2
+2024-10-08 04:11:56,512 - WARNING - send_echo: 65 - Неизвестный символ - 5
+2024-10-08 04:11:56,512 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ????????
+2024-10-08 04:11:56,615 - INFO - feed_update: 172 - Update id=674004694 is handled. Duration 103 ms by bot id=8177511854
+2024-10-08 04:12:28,223 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,223 - WARNING - send_echo: 65 - Неизвестный символ - p
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - D
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - p
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - h
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - b
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - C
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,224 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - "
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,225 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - "
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,226 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - v
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - I
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - N
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - F
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - O
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,227 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - "
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - %
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - -
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - %
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - v
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - -
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - %
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - N
+2024-10-08 04:12:28,228 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - %
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - -
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - %
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - "
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - @
+2024-10-08 04:12:28,229 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,230 - WARNING - send_echo: 65 - Неизвестный символ - p
+2024-10-08 04:12:28,230 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,230 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,230 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,230 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,230 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,231 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,231 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,231 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,231 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - C
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,232 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - [
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - ]
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - y
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - p
+2024-10-08 04:12:28,233 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - M
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,234 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,235 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - x
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - "
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - р
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - и
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - в
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - е
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - т
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - {
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,236 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - }
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - !
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - "
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - {
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,237 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - }
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - {
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - }
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - з
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:12:28,238 - WARNING - send_echo: 65 - Неизвестный символ - п
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - у
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - с
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - т
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - и
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - л
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - б
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - о
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - т
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - а
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - w
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - b
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,239 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - h
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - u
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - r
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - x
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - x
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - @
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - p
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - .
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,240 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - y
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - f
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - n
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - h
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - o
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - (
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - m
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - M
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - s
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - g
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - )
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - l
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - p
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - h
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - a
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - b
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - e
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - _
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - d
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - i
+2024-10-08 04:12:28,241 - WARNING - send_echo: 65 - Неизвестный символ - c
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - t
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - =
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - {
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - A
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - B
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - V
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - G
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - D
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - E
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - E
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - Z
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - H
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - Z
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - I
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - I
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - K
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,242 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - L
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - 
+
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - :
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - M
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - '
+2024-10-08 04:12:28,243 - WARNING - send_echo: 65 - Неизвестный символ - ,
+2024-10-08 04:12:28,243 - INFO - send_echo: 68 - Sergei c 5249216928 отправил ??????????????????????????????????????????????????????????????????????????? ?????? ? ???????????? ? ????????????? ? ????????????? ?????????? ? ?????????????????????????????????????????????????????????????????????? ??? ????????????????????????????????????????    ??????????????????????????????????????    ?????????????????????????????    ????? ??Privet? ??????????????    ?????????????????????????? ? ????????? zapustil bota???    ????? ????????????????????????????????????????????????????????????????? ??? ????????????????????????????    ????????????? ? ??    ?A?? ?????    ?B?? ?????    ?V?? ?????    ?G?? ?????    ?D?? ?????    ?E?? ?????    ?E?? ?????    ?ZH?? ??????    ?Z?? ?????    ?I?? ?????    ?I?? ?????    ?K?? ?????    ?L?? ?????    ?M?? ????
+2024-10-08 04:12:28,512 - INFO - feed_update: 172 - Update id=674004695 is handled. Duration 289 ms by bot id=8177511854
+2024-10-08 04:33:09,887 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:09,889 - WARNING - _listen_updates: 221 - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8177511854)
+2024-10-08 04:33:15,106 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:15,106 - WARNING - _listen_updates: 221 - Sleep for 1.250239 seconds and try again... (tryings = 1, bot id = 8177511854)
+2024-10-08 04:33:20,821 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:20,821 - WARNING - _listen_updates: 221 - Sleep for 1.655672 seconds and try again... (tryings = 2, bot id = 8177511854)
+2024-10-08 04:33:27,250 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:27,251 - WARNING - _listen_updates: 221 - Sleep for 2.165402 seconds and try again... (tryings = 3, bot id = 8177511854)
+2024-10-08 04:33:34,861 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:34,861 - WARNING - _listen_updates: 221 - Sleep for 2.645570 seconds and try again... (tryings = 4, bot id = 8177511854)
+2024-10-08 04:33:41,702 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:41,702 - WARNING - _listen_updates: 221 - Sleep for 3.376842 seconds and try again... (tryings = 5, bot id = 8177511854)
+2024-10-08 04:33:49,312 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:49,312 - WARNING - _listen_updates: 221 - Sleep for 4.400526 seconds and try again... (tryings = 6, bot id = 8177511854)
+2024-10-08 04:33:57,914 - ERROR - _listen_updates: 219 - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-10-08 04:33:57,914 - WARNING - _listen_updates: 221 - Sleep for 5.007567 seconds and try again... (tryings = 7, bot id = 8177511854)
